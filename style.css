@@ -1,13 +1,33 @@
 h1 {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: antiquewhite;
+    margin-top: 0px;
+    font-size: 50px;
+    font-weight: bolder;
 }
 
 h2{
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: antiquewhite;    
+}
+
+body {
+    margin: 0px;
+    padding: 0px;  
+}
+
+.hero-text{
+    margin: auto;
 }
 
 .hero-image{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".images./maths_history.jpg");
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Images/dark_maths_image.png");
+    background-size: cover;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+    filter: blur(0.1px);
 }
