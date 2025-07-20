@@ -1,21 +1,17 @@
 h1 {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-<<<<<<< HEAD
     color: antiquewhite;
     margin-top: 0px;
     font-size: 50px;
     font-weight: bolder;
-=======
     color: azure;
->>>>>>> 5ad35ae029ba65bfa9fbe4622f1fd0b66be46540
 }
 
 h2{
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-<<<<<<< HEAD
-    color: antiquewhite;    
+    color: azure;    
 }
 
 body {
@@ -35,16 +31,4 @@ body {
     margin: 0px;
     padding: 0px;
     filter: blur(0.1px);
-}
-=======
-    color: azure;    
-}
-
-.hero-image{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images./maths_history.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 125px;
-    margin: 0px;
-}
->>>>>>> 5ad35ae029ba65bfa9fbe4622f1fd0b66be46540
+} 
